@@ -21,7 +21,7 @@
 
 -->
 
-> # Math Magicians
+> # React Todo App
 
 | Desktop Veiw Representation|
 |---------------------------------------|
@@ -56,7 +56,7 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-> **[Math Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+> **[React Todo App]** in this app all main concepts of React like: components, props, state, and hooks are used to create a todo application. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -130,10 +130,22 @@ Clone this repository to your desired folder:
 
 
 ### Deployment
-- You can deploy this project using:
+- install `'gh-pages'` with following command:
+
+      npm i gh-pages --save-dev
+
+- Add `'homepage'` to project's jason file:
+
+      "homepage": "ab-noori.github.oi/react-todo-app",
+
+- Add the following scripts to project's jason file:
 
       npm run build
       gh-pages -d build
+
+- Finally run the following command:
+
+      npm run deploy
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
