@@ -1,70 +1,199 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Open pull request using the following structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ## Project title: subtitle
 
-### `npm test`
+  ### 🌟Branch features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - i
+  - ii
+  - iii
 
-### `npm run build`
+  ### [ 🚀 Branch Demo](https://ab-noori.github.io/Project-Template/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> # Math Magicians
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Desktop Veiw Representation|
+|---------------------------------------|
+|<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/mobile-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
 
-### `npm run eject`
+<!-- TABLE OF CONTENTS -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 📗 Table of Contents
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- PROJECT DESCRIPTION -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 📖 [Math Magicians] <a name="about-project"></a>
 
-## Learn More
+> **[Math Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Built With <a name="built-with"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tech Stack <a name="tech-stack"></a>
+- <summary>Client</summary>
+    <ul>
+      <li><a href="https://reactjs.org/">React</a></li>
+    </ul>
 
-### Code Splitting
+### Key Features <a name="key-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **[Responsive layout]**
+- **[UX/UI accessibility]**
+- **[Dynamic data]**
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- LIVE DEMO -->
 
-### Making a Progressive Web App
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> - [Live Demo Link](https://ab-noori.github.io/react-todo-app/)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+In order to run this project you need:
+  - A browser of you choice.
+  - A text editor of your choice.
+  - An installed node.js on your local system
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- Use the following Commands:
+
+      cd your-desired-folder
+      git clone git@github.com:ab-noori/react-todo-app.git
+
+
+### Install
+- Install this project with:
+
+       npm init react-app .
+       npm start
+
+
+### Usage
+- Use following commands to run on your local system:
+
+      npm run build
+      npm run deploy
+
+### Run tests
+- Run the following script and style test:
+
+      npx eslint "**/*.{js,jsx}"
+      npx eslint "**/*.{js,jsx}" --fix
+
+      npx stylelint "**/*.{css,scss}"
+      npx stylelint "**/*.{css,scss}" --fix
+ 
+
 
 ### Deployment
+- You can deploy this project using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+      npm run build
+      gh-pages -d build
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abdul Ali Noori**
+
+- GitHub: [@ab-noori](https://github.com/ab-noori)
+- Twitter: [@AbdulAliNoori4](https://twitter.com/AbdulAliNoori4)
+- LinkedIn: [abdul-ali-noori](https://www.linkedin.com/in/abdul-ali-noori-384b85195/)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add About page]**
+- [ ] **[Add Contact page]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ab-noori/react-todo-app/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+ 
+  If you like this project, give it a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+  I would like to thank Microverse and my coding partners, and also give credit to Traversy Media
+YouTub Channel, I really learned a lot from this channel.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
