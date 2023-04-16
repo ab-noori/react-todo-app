@@ -136,12 +136,12 @@ Clone this repository to your desired folder:
 
 - Add `'homepage'` to project's jason file:
 
-      "homepage": "ab-noori.github.oi/react-todo-app",
+      "homepage": "https://ab-noori.github.oi/react-todo-app",
 
 - Add the following scripts to project's jason file:
 
-      npm run build
-      gh-pages -d build
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build "
 
 - Finally run the following command:
 
@@ -185,8 +185,8 @@ Feel free to check the [issues page](https://github.com/ab-noori/react-todo-app/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse and my coding partners, and also give credit to Traversy Media
-YouTub Channel, I really learned a lot from this channel.
+  I would like to thank Microverse and my coding partners, and also give credit to [Nerd's lesson](https://www.youtube.com/@Nerdslesson)
+YouTub Channel for it's usefull [tutorial](https://www.youtube.com/watch?v=cd3P3yXyx30), I really learned a lot from this tutorial.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
