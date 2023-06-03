@@ -5,12 +5,14 @@ import React, { useState } from 'react';
 const Todo = ({
   todo, index, completeTodo, removeTodo,
 }) => (
-  <div className="todo" style={{ textDecoration: todo.isCompleted ? 'line-through' : '' }}>
-    {todo.text}
+  <div className="todo">
+    <span className="todo-text" style={{ textDecoration: todo.isCompleted ? 'line-through' : '' }}>
+      {todo.text}
+    </span>
 
     <div className="action-button">
-      <button type="button" onClick={() => completeTodo(index)}>Complete</button>
-      <button type="button" onClick={() => removeTodo(index)}>x</button>
+      <button type="button" className="complete-btn" onClick={() => completeTodo(index)}>Complete</button>
+      <button type="button" className="remove-btn" onClick={() => removeTodo(index)}>x</button>
     </div>
   </div>
 
