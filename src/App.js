@@ -2,15 +2,28 @@ import './App.scss';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-const Todo = ({ todo, index }) => (
-  <div className="todo">
+const Todo = ({
+  todo, index, completeTodo, removeTodo,
+}) => (
+  <div className="todo" style={{ textDecoration: todo.isCompleted ? 'line-through' : '' }}>
     {todo.text}
+
+    <div className="action-button">
+      <button type="button" onClick={() => completeTodo(index)}>Complete</button>
+      <button type="button" onClick={() => removeTodo(index)}>x</button>
+    </div>
   </div>
+
 );
 
 Todo.propTypes = {
-  todo: PropTypes.object.isRequired,
+  todo: PropTypes.shape({
+    text: PropTypes.string.isRequired,
+    isCompleted: PropTypes.bool,
+  }).isRequired,
   index: PropTypes.number.isRequired,
+  completeTodo: PropTypes.func.isRequired,
+  removeTodo: PropTypes.func.isRequired,
 };
 
 const TodoForm = ({ addTodo }) => {
@@ -46,11 +59,29 @@ function App() {
     setTodos(newTodos);
   };
 
+  const completeTodo = (index) => {
+    const newTodos = [...todos];
+    newTodos[index].isCompleted = true;
+    setTodos(newTodos);
+  };
+
+  const removeTodo = (index) => {
+    const newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  };
+
   return (
-    <div className="App">
+    <div className="app">
       <div className="todo-list">
         {todos.map((todo, index) => (
-          <Todo key={index} index={index} todo={todo} />
+          <Todo
+            key={todo.text}
+            index={index}
+            todo={todo}
+            completeTodo={completeTodo}
+            removeTodo={removeTodo}
+          />
         ))}
 
         <TodoForm addTodo={addTodo} />
