@@ -1,13 +1,18 @@
 .app {
-  background: #209cee;
-  padding: 30px;
+  padding: 50px;
   height: 100vh;
+  display: flex;
+  background: #209cee;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
 }
 
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
   padding: 5px;
+  width: 400px;
   max-width: 400px;
 }
 
@@ -21,4 +26,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.action-button {
+  display: flex;
+  gap: 10px;
+  padding: 1px;
 }
