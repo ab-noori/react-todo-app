@@ -130,20 +130,20 @@ Clone this repository to your desired folder:
 
 
 ### Deployment
-- install `'gh-pages'` with following command:
+- 1- install `'gh-pages'` with following command:
 
       npm i gh-pages --save-dev
 
-- Add `'homepage'` to project's jason file:
+- 2- Add `'homepage'` to project's jason file:
 
       "homepage": "https://ab-noori.github.oi/react-todo-app",
 
-- Add the following scripts to project's jason file:
+- 3- Add the following scripts to project's jason file:
 
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build "
 
-- Finally run the following command:
+- 4- Finally run the following command:
 
       npm run deploy
 
