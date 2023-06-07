@@ -25,8 +25,7 @@
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
-|<div align="center"><img src="./src/assets/mobile-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-desk.PNG" alt="screenshot" width="auto" height="auto"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -54,7 +53,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 [React Todo App] <a name="about-project"></a>
 
 > **[React Todo App]** in this app all main concepts of React like: components, props, state, and hooks are used to create a todo application. 
 
